@@ -6,7 +6,7 @@ O projeto permite realizar todas as operações CRUD com produtos, é possível 
 
 Para a criação dos components, modules, resolvers e services foram os comandos de terminal via Angular CLI, além da instação de pacotes como o ngx-mask, utilizando npm. Foi utilizado angular 14.2.9 com pré-processador scss e Angular Material para os principais components de tela. O fomulário de cadastro possuí validação dos dados e impede a inserção de valores fora do padrão esperado pelo Spring.
 
-O banco de dados utilizado é o H2, onde é feita uma inserção de itens ao iniciar do Spring. Na modelagem do banco de datos temos uma tabela para produtos que possui um chave estrangeira que relaciona o produto com cada Categoria. A tabela categoria possuí, então, uma relação @ManyToOne com Produtos, pois cada produto possuí uma tabela.
+O banco de dados utilizado é o H2, onde é feita uma inserção de categorias e produtos ao iniciar do Spring. Na modelagem do banco de datos temos uma tabela para produtos que possui um chave estrangeira que relaciona o produto com cada Categoria. A tabela categoria possuí, então, uma relação @ManyToOne com Produtos, pois cada produto possuí uma tabela.
 
 *Foram implementados testes dos endpoints da API.
 
